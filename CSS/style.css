@@ -125,6 +125,8 @@ h2 {
 
 }
 
+/* Offset */
+
 .offset-0 {
     margin-left: 0;
 }
@@ -178,6 +180,8 @@ h2 {
     margin-left: calc(100% / 12 * 12);
 }
 
+
+/* Alignment */
 .row>.big-col {
     min-height: 100px;
 }
@@ -194,14 +198,13 @@ h2 {
     align-self: flex-end;
 }
 
-.row>.justify-start {
-    justify-content: flex-start;
+
+/* Justify Content */
+
+.justify-between {
+    justify-content: space-between
 }
 
-.row>.justify-center {
-    justify-content: center;
-}
-
-.justify-end {
-    justify-content: flex-end;
+.justify-around {
+    justify-content: space-around;
 }
