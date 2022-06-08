@@ -177,3 +177,31 @@ h2 {
 .offset-12 {
     margin-left: calc(100% / 12 * 12);
 }
+
+.row>.big-col {
+    min-height: 100px;
+}
+
+.row>.small-col {
+    height: 50px;
+}
+
+.row>.align-self-c {
+    align-self: center;
+}
+
+.row>.align-self-bo {
+    align-self: flex-end;
+}
+
+.row>.justify-start {
+    justify-content: flex-start;
+}
+
+.row>.justify-center {
+    justify-content: center;
+}
+
+.justify-end {
+    justify-content: flex-end;
+}
