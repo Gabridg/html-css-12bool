@@ -1,0 +1,36 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+/* Generals */
+
+.container {
+    max-width: 1900px;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.row>[class^='col'] {
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: auto;
+}
+
+
+.row>.col {
+    flex-grow: 1;
+    max-width: 100%;
+    background-color: #00f;
+    border: 1px solid #fff;
+    height: 80px;
+}
